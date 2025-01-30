@@ -26,6 +26,8 @@ h1 {
     text-align: center;              /* Center align the heading */
     text-transform: uppercase;       /* Uppercase letters for a strong appearance */
     font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 h2 {

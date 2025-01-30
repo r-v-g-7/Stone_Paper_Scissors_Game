@@ -52,9 +52,9 @@ document.querySelectorAll("button").forEach(button => {
             } else if (buttonClicked === "video1" && randomNumber === 2) {
                 document.querySelector("h1").innerHTML = "Computer Win";
             } else if (buttonClicked === "video1" && randomNumber === 3) {
-                document.querySelector("h1").innerHTML = "You Win";
+                document.querySelector("h1").innerHTML = "You Win 🏆🎉🚀";
             } else if (buttonClicked === "video2" && randomNumber === 1) {
-                document.querySelector("h1").innerHTML = "You Win";
+                document.querySelector("h1").innerHTML = "You Win 🏆🎉🚀";
             } else if (buttonClicked === "video2" && randomNumber === 2) {
                 document.querySelector("h1").innerHTML = "It's a Draw";
             } else if (buttonClicked === "video2" && randomNumber === 3) {
@@ -62,7 +62,7 @@ document.querySelectorAll("button").forEach(button => {
             } else if (buttonClicked === "video3" && randomNumber === 1) {
                 document.querySelector("h1").innerHTML = "Computer Win";
             } else if (buttonClicked === "video3" && randomNumber === 2) {
-                document.querySelector("h1").innerHTML = "You Win";
+                document.querySelector("h1").innerHTML = "You Win 🏆🎉🚀";
             } else if (buttonClicked === "video3" && randomNumber === 3) {
                 document.querySelector("h1").innerHTML = "It's a Draw";
             }
