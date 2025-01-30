@@ -1,0 +1,85 @@
+/* Apply Flexbox to the body */
+html {
+    background: linear-gradient(45deg, #2c2c2c, #3d3d3d); /* Dark grey gradient */
+    background-size: 200% 200%; /* Subtle motion effect in the background */
+    animation: gradientMotion 3s ease infinite; /* Smooth animation for a creepy vibe */
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    display: flex;               /* Enable Flexbox */
+    flex-direction: column;      /* Stack elements vertically */
+    justify-content: center;     /* Vertically center the content */
+    align-items: center;         /* Horizontally center the content */           /* Full viewport height */
+    margin: 0;                   /* Remove default margin */
+}
+
+h1 {
+    font-size: 30px;                 /* Large font size */
+    font-weight: bold;               /* Bold text for emphasis */
+    color: #00ff99;                  /* Neon green color for a gaming vibe */
+    text-shadow: 3px 3px 10px rgba(0, 255, 0, 0.6), /* Neon green glow */
+                 0 0 30px rgba(0, 255, 0, 0.6), 
+                 0 0 50px rgba(0, 255, 0, 0.6); 
+    letter-spacing: 5px;             /* Spacing between letters for a cool effect */
+    text-align: center;              /* Center align the heading */
+    text-transform: uppercase;       /* Uppercase letters for a strong appearance */
+    font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+}
+
+h2 {
+    font-weight: bold;               /* Bold text for emphasis */
+    color: #00ff99;                  /* Neon green color for a gaming vibe */
+    text-shadow: 3px 3px 10px rgba(0, 255, 255, 0.6), /* Neon green glow */
+                 0 0 30px rgba(0, 255, 255, 0.6), 
+                 0 0 50px rgba(0, 255, 255, 0.6); 
+    letter-spacing: 5px;             /* Spacing between letters for a cool effect */
+    text-align: center;              /* Center align the heading */
+    text-transform: uppercase;       /* Uppercase letters for a strong appearance */
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.container {
+    height: 301px; 
+    width: 536px;
+    object-fit: cover;
+}
+
+
+.container img {
+    height: 301px; 
+    width: 536px;
+}
+
+/* Style for the buttons */
+button {
+    width: 50px;
+    height: 50px;
+    padding: 0;                    /* Remove padding inside the button */
+    border: none;                  /* Remove button border */
+    background-color: transparent; /* Remove button background */
+    display: block;                /* Ensure buttons are block-level for vertical stacking */
+    margin: 10px 0;                /* Add vertical spacing between buttons */
+    cursor: pointer;              /* Change cursor to pointer when hovering over the button */
+}
+
+/* Style for the images inside the buttons */
+button img {
+    width: 140%;                   /* Make the image fill the button width */
+    height: 140%;                  /* Make the image fill the button height */
+    object-fit: cover;             /* Ensure the image completely covers the button without distortion */
+    margin-left: 80px;  
+    border: 2px solid green;
+}
+
+
+.containerX {
+    background-color: red;
+    width: 270px; 
+    height: 150px;
+    margin-left: 500px;
+    margin-top: -12%;
+    border: 3px solid green;
+}
